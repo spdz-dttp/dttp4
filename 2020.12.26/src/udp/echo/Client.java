@@ -21,6 +21,7 @@ import java.util.Scanner;
  */
 
 public class Client {
+	
     //127.0.0.1 指 当前进程所在的地址
     public static final String SERVER_HOST = "127.0.0.1";
 

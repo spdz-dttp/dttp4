@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>海贼悬赏</title>
+</head>
+<body>
+    <h1>海贼悬赏</h1>
+    <!-- action 的路径可以有以下几种形式：
+        1. http://127.0.0.1:8080/spdz1/reward
+        2. /spdz1/reward
+        3. reward
+    -->
+    <form method="get" action="http://127.0.0.1:8080/reward">
+    <form>
+        <div>
+            <label for="nm">海贼</label>
+            <input type="text" id="nm" name="名号" placeholder="请输入海贼名称">
+        </div>
+        <div>
+            <button type="submit">悬赏</button>
+        </div>
+    </form>
+</body>
+</html>
